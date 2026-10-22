@@ -1,6 +1,6 @@
-ID,name,category,price,createdAt,createdBy,modifiedAt,modifiedBy
-96187881-9aa9-45eb-b093-7fd7c5ebcc60,name-961878,category-961878,99772919.89,2012-07-22T00:00:00.000Z,createdBy.km6u@example.org,2006-01-03T00:00:00.000Z,modifiedBy.km6u@example.com
-961879c0-11c6-4bab-a1ae-902013c4be33,name-961879,category-961879,95871957.86,2002-08-31T00:00:00.000Z,createdBy.km6v@example.net,2004-03-25T00:00:00.000Z,modifiedBy.km6v@example.com
-961880e5-60df-4ab8-b131-13ea0d6d775b,name-961880,category-961880,57085653.72,2016-06-15T00:00:00.000Z,createdBy.km6w@example.net,2020-03-28T00:00:00.000Z,modifiedBy.km6w@example.com
-961881f2-01f8-47d6-8394-c2d7be555f2d,name-961881,category-961881,58335491.17,2006-02-10T00:00:00.000Z,createdBy.km6x@example.com,2005-07-17T00:00:00.000Z,modifiedBy.km6x@example.org
-9618825e-844b-4b74-8bcc-00f5d1dbc78f,name-961882,category-961882,92785996.1,2000-07-09T00:00:00.000Z,createdBy.km6y@example.net,2008-04-10T00:00:00.000Z,modifiedBy.km6y@example.net
+ID,name,category,description,price,currency_code,stock
+a0000000-0000-4000-8000-000000000001,Laptop 14 inch,Hardware,Standard developer laptop,85000,INR,12
+a0000000-0000-4000-8000-000000000002,Monitor 27 inch,Hardware,External display,22000,INR,30
+a0000000-0000-4000-8000-000000000003,Docking station,Hardware,USB-C dock,12000,INR,8
+a0000000-0000-4000-8000-000000000004,Office licence,Software,Annual subscription,6000,INR,100
+a0000000-0000-4000-8000-000000000005,Headset,Accessories,Noise-cancelling headset,9000,INR,20
