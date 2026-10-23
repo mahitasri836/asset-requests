@@ -18,7 +18,10 @@ entity Requests : cuid, managed {
     title : String(100) @mandatory;
     justification : String(1000);
     status : Association to Statuses;
+    priority : Association to Priorities;
     items : Composition of many RequestItems on items.parent = $self;
+    
+    
 
 }
 
@@ -26,5 +29,10 @@ entity RequestItems : cuid {
     asset : Association to Assets;
     parent : Association to Requests;
     quantity : Integer default 1;
+    expDelDate : Date;
 
+}
+
+entity Priorities : CodeList {
+    key code : String(1) default 'M';
 }

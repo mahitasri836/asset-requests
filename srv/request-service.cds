@@ -4,4 +4,5 @@ service RequestService {
     entity Statuses as projection on asset.Statuses;
     entity Requests as projection on asset.Requests;
     entity RequestItems as projection on asset.RequestItems;
+    entity Priorities as projection on asset.Priorities;
 }
